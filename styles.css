@@ -380,8 +380,9 @@ a:hover {
     display: block;
     width: 25px;
     height: 3px;
-    background: var(--text-primary);
+    background: var(--cyan-bright);
     transition: all var(--transition-fast);
+    box-shadow: var(--glow-cyan-sm);
 }
 
 /* Desktop Navigation */
@@ -403,9 +404,12 @@ a:hover {
     top: 100%;
     left: 0;
     right: 0;
-    background: white;
-    padding: 1rem;
-    box-shadow: var(--shadow-lg);
+    background: rgba(10, 22, 40, 0.98);
+    backdrop-filter: var(--glass-backdrop);
+    border: var(--border-glass);
+    border-top: none;
+    padding: 1.5rem;
+    box-shadow: var(--shadow-xl);
 }
 
 /* ============================================
